@@ -1,0 +1,9 @@
+Package: com.lablabla.muteicon
+Name: MuteIcon
+Depends: mobilesubstrate, libStatusBar
+Version: 1.4.1.2
+Architecture: iphoneos-arm
+Description: Add an icon to the status bar when phone is muted!
+Maintainer: Carmel Barak (La bla bla)
+Author: Carmel Barak (La bla bla)
+Section: Tweaks
