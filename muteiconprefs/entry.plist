@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = MuteIconPrefs;
+		cell = PSLinkCell;
+		detail = "MuteIconPrefsListController";
+		icon = "MuteIconPrefs.png";
+		isController = 1;
+		label = MuteIcon;
+	};
+}

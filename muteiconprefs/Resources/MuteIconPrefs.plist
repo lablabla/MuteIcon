@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>MuteIcon Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.lablabla.muteicon.prefs</string>
+			<key>key</key>
+			<string>muteEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>postNotification</key>
+			<string>com.lablabla.muteicon/reloadPrefs</string>
+			<key>PostNotification</key>
+			<string>com.lablabla.muteicon/reloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Icon</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.lablabla.muteicon.prefs</string>
+			<key>key</key>
+			<string>iconType</string>
+			<key>label</key>
+			<string>Icon</string>
+			<key>validTitles</key>
+			<array>
+				<string>Speaker</string>
+				<string>Bell</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+			<key>postNotification</key>
+			<string>com.lablabla.muteicon/reloadPrefs</string>
+			<key>PostNotification</key>
+			<string>com.lablabla.muteicon/reloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>makeDonation:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Donate to Developer</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>footerText</key>
+			<string>Carmel Barak (La bla bla) © 2013</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>alignment</key>
+			<integer>2</integer>
+			<key>footerText</key>
+			<string>Speaker icons by icon8.com
+Bell icons by Gela Gelaschvili
+Logo by Arthur Gatin</string>
+		</dict>
+			</array>
+	<key>title</key>
+	<string>MuteIcon</string>
+</dict>
+</plist>
